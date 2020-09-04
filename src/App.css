@@ -1,3 +1,176 @@
-h1 {
-  background: yellow;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul {
+  text-align: center;
+  border-bottom: 1px solid Blue;
+  padding: 10px;
+}
+
+.navbar ul li {
+  margin: 30px;
+  display: inline;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li a.active {
+  color: Blue;
+  font-size: 24px;
+}
+
+/* ----------------------------------- */
+
+.home .image {
+  display: block;
+  margin: auto;
+  border: 5px solid Blue;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("./images/portrait.jpg");
+}
+
+.home {
+  padding: 20px;
+  text-align: center;
+}
+
+.home h1::first-letter {
+  font-size: 150%;
+  color: Blue;
+}
+
+/* ----------------------------------- */
+
+.about {
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.about div {
+  border-bottom: 1px solid Blue;
+}
+
+.about div h3 {
+  color: Blue;
+}
+
+/* ----------------------------------- */
+
+.projects .column {
+  width: 25%;
+  display: block;
+  margin: auto;
+}
+
+.projects .card {
+  box-shadow: 0 0px 8px 0 blue;
+  padding: 16px;
+  text-align: center;
+  height: 150px;
+  margin: 10%;
+}
+
+.projects .card a {
+  text-decoration: none;
+  color: blue;
+  position: relative;
+}
+
+.projects .card h3 {
+  color: blue;
+}
+
+.projects .card h3,
+.projects .card p,
+.projects .card a {
+  height: 30%;
+}
+
+.projects .card button {
+  border: 0;
+}
+
+/* ----------------------------------- */
+
+.contact {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.contact .field input:not(.submit) {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.contact .field textarea {
+  width: 100%;
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid blue;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact .field .submit {
+  width: 25%;
+  display: block;
+  margin: auto;
+  background: blue;
+  color: white;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-xing {
+  background: #125444;
+  color: greenyellow;
+}
+
+footer p {
+  color: rgb(164, 160, 160);
 }
