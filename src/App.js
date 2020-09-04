@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/deploy-portfolio">
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />

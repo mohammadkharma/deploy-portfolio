@@ -26,11 +26,11 @@ const Contact = () => {
       <footer>
         <a
           href="https://www.linkedin.com/in/mohammad-kharma-95606ba9/"
-          class="fa fa-linkedin"
+          className="fa fa-linkedin"
         ></a>
         <a
           href="https://www.xing.com/profile/Mohammad_Kharma2/cv"
-          class="fa fa-xing"
+          className="fa fa-xing"
         ></a>
 
         <p>mohammad.kh.8688@gmail.com</p>
